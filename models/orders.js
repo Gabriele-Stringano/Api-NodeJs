@@ -10,8 +10,7 @@ const orderSchema = new Schema({
         type: [Schema.Types.ObjectId],
     },
     date: {
-        type: Date,
-        default: Date.now,
+        type: Date, //y,m,d
       },
 })
 
