@@ -1,12 +1,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="logo.png" alt="Logo" width="80" height="80">
 
-  <h3 align="center">Pocket-Library by Gabriele Stringano</h3>
+  <h3 align="center">Api-NodeJs by Gabriele Stringano</h3>
 
   <p align="center">
-  A tool to search for information about books. Powered by  APIs
+  RESTful JSON API for a travel agency
     <br />
     <a href="https://glistening-lily-15ec07.netlify.app/"><strong>Try the program »</strong></a>
   </p>
@@ -37,7 +36,7 @@
 <!-- ABOUT THE PROJECT -->
 ## 💡About The Project
 
-As a Start2impact student, I developed this application to put my newly acquired knowledge of JavaScript into practice.
+As a Start2impact student, I developed this application to put my newly acquired knowledge of Node.js and MongoDB into practice.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -46,11 +45,9 @@ As a Start2impact student, I developed this application to put my newly acquired
 ### Built With
 
 
-* [![Html][Html.js]][Html-url]
-* [![Css][Css.js]][Css-url]
 * [![Javascript][Javascript.js]][Javascript-url]
 * [![NodeJs][NodeJs.js]][NodeJs-url]
-* <a href="https://openlibrary.org/developers/api">External Service-> Open Library</a>
+* <a href="https://www.mongodb.com/">External Service-> MongoDb Cloud</a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
