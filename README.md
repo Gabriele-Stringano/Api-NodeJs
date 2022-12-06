@@ -57,51 +57,22 @@ As a Start2impact student, I developed this application to put my newly acquired
 
 ## ⚙️How it Work
 
-- The site allows users to search for books by desired genre and view information such as: title, authors, and description. All in the English language.</br>
-The text box is an Input element. By pressing on the Search button, the browser will contact the external service (Open Library) to get the list of books according to the genre indicated in the text box.
+
 ![product-screenshot1]
-- A limited number of books are printed on the screen; it's possible to display other books by pressing on the following button, and it's possible to go back with the previous button. The 2 buttons work due to an eventListener each and a counter called offsett, which keeps in memory the position reached in the dataset.
+
 ![product-screenshot2]
-- Pressing in the box of any book will execute a new request to the external service; the previously saved key is passed as the ID of the item. 
-The desciption of the book is then displayed on the page
+
 [![product-screenshot3]]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<!-- GETTING STARTED -->
-## ❗Getting Started
-
-To get a local copy up and running follow these simple example steps:
-<ol>
-<li> Go to  https://github.com/Gabriele-Stringano/Pocket-Library and press the green button </li>
-<li> Select Download zipper </li>
-<li> Open the zipper and extract the folder </li>
-<li> Open a text editor and add the extracted folder </li>
-<li> Install the dependencies: npm install</li>
-<li> Run the Program: npm run dev</li>
-<li> The browser should open automatically</li>
-<li> Check out for index.html in the /dist folder for manual start </li>
-</ol>
-
-### Prerequisites
-You need to own these programs:
-<ul>
-    <li> A text editor-IDE </li>
-    <li> A program to unzip files</li>
-    <li> Instal Node.js</li>
-</ul>
-
 
 <!-- CONTACT -->
 ## 📲Contact
 
 Gabriele Stringano Email: - gabrielestringano@gmail.com
 
-My Project: - https://github.com/Gabriele-Stringano/
+My Projects: - https://github.com/Gabriele-Stringano/
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- ACKNOWLEDGMENTS -->
 ## 📚Acknowledgments
