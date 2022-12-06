@@ -6,8 +6,6 @@
 
   <p align="center">
   RESTful JSON API for a travel agency
-    <br />
-    <a href="https://glistening-lily-15ec07.netlify.app/"><strong>Try the program »</strong></a>
   </p>
 </div>
 
