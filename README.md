@@ -169,6 +169,8 @@ Create, if don't exist, a .env file and the insert an enviroment variable named 
 <!-- CONTACT -->
 ## 📲Contact
 
+Linkedin -> https://www.linkedin.com/in/gabriele-stringano/
+
 Gabriele Stringano Email: - gabrielestringano@gmail.com
 
 My Projects: - https://github.com/Gabriele-Stringano/
