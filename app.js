@@ -1,12 +1,33 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const helmet = require("helmet");
+const swaggerUI = require("swagger-ui-express");
+const swaggerJsDoc = require("swagger-jsdoc");
 
-const app= express()
+const app = express()
 const productsRouter = require('./routes/products')
 const usersRouter = require('./routes/users')
 const ordersRouter = require('./routes/orders')
 
+const options = {
+  definition: {
+    openapi: "3.0.0",
+    info: {
+      title: "Travel API",
+      version: "1.0.0",
+      description: "RESTful JSON API for a travel agency",
+    },
+    servers: [
+      {
+        url: "http://localhost:3000"
+      }
+    ],
+  },
+  apis: ["./routes/*.js"]
+}
+
+const specs = swaggerJsDoc(options);
+app.use("/api-docs", swaggerUI.serve, swaggerUI.setup(specs));
 
 app.use(express.json())
 
@@ -23,15 +44,15 @@ app.use('/api/users', usersRouter)
 app.use('/api/orders', ordersRouter)
 
 app.get("/", (req, res) => {
-    res
-      .status(200)
-      .json({ message: "Orizon, for sustainable travel" });
-  });
-  
-  // error 404
-  app.get("*", (req, res) => {
-    res.status(404).json({ message: "404 Not Found" });
-  });
+  res
+    .status(200)
+    .json({ message: "Orizon, for sustainable travel" });
+});
+
+// error 404
+app.get("*", (req, res) => {
+  res.status(404).json({ message: "404 Not Found" });
+});
 
 
 module.exports = app
